@@ -20,7 +20,7 @@ const records = parse(fs.readFileSync(path.join(__dirname, '../data/input.csv'))
 });
 
 for (const record of records) {
-  test(`Login as new Customer: ${record.firstname} ${record.lastname}`, async ({ page }) => {
+  test(`Logout as new Customer: ${record.firstname} ${record.lastname}`, async ({ page }) => {
     const homePage = new HomePage(page);
     const managerPage = new ManagerPage(page);
     const addCustPage = new AddCustPage(page);
