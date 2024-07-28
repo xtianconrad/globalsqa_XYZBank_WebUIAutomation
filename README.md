@@ -5,7 +5,7 @@ To run test locally, please follow these steps:
 1. Clone this repository
 2. Ensure that node.js is installed
 3. Run npm install to install node modules
-4. Run tests with 'npx playwright test' - it will run test in chromium browser (firefox and webkit are commented out in playwright.config.ts for execution speed)
+4. Run all tests with 'npx playwright test' - it will run all tests in chromium browser (firefox and webkit are commented out in playwright.config.ts for execution speed)
 5. View test execution results with 'npx playwright show-report'
 
 Test scenarios:
